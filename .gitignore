@@ -1,0 +1,12 @@
+# Large generated data files — regenerate with python3 generate_data.py
+data/streamlytics.db
+data/events.csv
+data/sessions.csv
+
+# Keep users.csv (small, 4MB) as sample data
+!data/users.csv
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
